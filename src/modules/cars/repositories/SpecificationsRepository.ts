@@ -23,7 +23,7 @@ class SpecificationsRepository implements ISpecificationsRepository {
         this.specifications.push(specification);
     }
 
-    index(): Specification[] {
+    list(): Specification[] {
         return this.specifications;
     }
 
