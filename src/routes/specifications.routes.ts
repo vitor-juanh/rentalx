@@ -18,7 +18,7 @@ specificationsRoutes.post("/", (request, response) => {
 })
 
 specificationsRoutes.get("/", (request, response) => {
-    const all = specificationsRepository.index();
+    const all = specificationsRepository.list();
 
     return response.json(all);
 })
